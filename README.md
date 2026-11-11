@@ -37,6 +37,7 @@ Before using salary data to support decisions, an analyst should validate curren
 - The dataset concerns data-related roles and is not an organisation's internal employee-pay data.
 - Salary comparisons may be misleading if currencies, pay periods, locations or job levels are not made comparable.
 - This project is not a pay-equity or equal-pay analysis.
+- The Excel workbook is not yet present in this repository; it is currently stored in the wrong GitHub repository and needs to be transferred without damaging the binary file.
 - Dashboard screenshots, dataset source, salary period and currency-handling notes should be added to make the analysis fully reproducible.
 
 ## Business value
