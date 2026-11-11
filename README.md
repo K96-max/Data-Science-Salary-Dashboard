@@ -1,27 +1,49 @@
 # Data Science Salary Dashboard
 
-An Excel dashboard project exploring salary information across data-related job titles, locations and other available job characteristics. It demonstrates spreadsheet-based data exploration, dashboard design and communicating compensation patterns.
+An Excel dashboard project exploring salary information across data-related job titles, locations and other available job characteristics. The project demonstrates how compensation data can be organised and presented to support market benchmarking.
 
-## Business question
-What patterns can be seen in data-related salaries across roles, countries and other available job characteristics? In an HR interview, connect this to compensation analysis and reward reporting, while being clear that the dataset is about data-science roles rather than a company's internal employee pay.
+> **Business context:** Reward and HR teams need clear, comparable pay information to understand external market rates, support salary benchmarking and inform workforce planning.
 
-## Workbook structure
-The workbook contains a main Data sheet (32,673 rows and 16 columns), a Salary_Dashboard sheet, and supporting Data Validation, Jobs, Country, Type and Platform sheets.
+## Business problem
 
-## Skills demonstrated
-Excel workbook organisation, handling a large tabular dataset, lookup and validation structures, dashboard design and compensation-market interpretation.
+How can a large salary dataset be organised into a clear dashboard that helps stakeholders compare compensation patterns across roles and locations?
 
-## Interview walkthrough
-**30-second summary:** I built an Excel salary dashboard using a dataset of more than 32,000 records. I structured the workbook with a main data sheet and supporting lookup sheets, then used the dashboard to explore salary patterns across data-related roles and locations. It helped me practise turning a large dataset into information a stakeholder could scan and use.
+## Project objectives
 
-**Relevance to HR / People Analytics:** reward and compensation benchmarking, comparing pay across job families and locations, presenting salary information to non-technical stakeholders, and maintaining consistent job-title and location categories.
+- Structure a large salary dataset in Excel.
+- Organise supporting categories and lookup information.
+- Present salary patterns in a dashboard format.
+- Consider the data-quality and comparability issues that affect compensation analysis.
 
-**Likely questions:** How did you organise the workbook? How would you check inconsistent currencies, units or missing values? Which Excel features did you use? How would you adapt this for a Reward team? What extra data would be needed for a pay-equity analysis?
+## Workbook and approach
 
-Only describe formulas, PivotTables, charts, Power Query or validation rules that you personally used and can demonstrate. Do not claim this is an internal pay-equity study or that it proves pay discrimination.
+The workbook contains a main **Data** sheet with **32,673 rows and 16 columns**, alongside the `Salary_Dashboard`, `Data Validation`, `Jobs`, `Country`, `Type` and `Platform` sheets.
 
-## Next steps
-Add dashboard screenshots, document the dataset source and salary period, explain currency handling and filters, and write a short summary of the most useful chart and decision it could inform.
+The project uses Excel workbook organisation, supporting lookup and validation structures, dashboard design and compensation-market interpretation.
+
+## Business application
+
+A well-structured salary dashboard can help a Reward or HR team explore questions such as:
+
+- How do salary levels vary across data-related job titles?
+- Are there differences between countries or locations?
+- How does employment or contract type relate to reported salary?
+- Which categories need further checking before making a fair comparison?
+
+Before using salary data to support decisions, an analyst should validate currency, salary period, geography, job-title consistency, missing values and whether figures represent annual, monthly or hourly pay.
+
+## Limitations
+
+- The dataset concerns data-related roles and is not an organisation's internal employee-pay data.
+- Salary comparisons may be misleading if currencies, pay periods, locations or job levels are not made comparable.
+- This project is not a pay-equity or equal-pay analysis.
+- Dashboard screenshots, dataset source, salary period and currency-handling notes should be added to make the analysis fully reproducible.
+
+## Business value
+
+This project demonstrates how Excel can turn a large, unstructured compensation dataset into a more accessible reporting tool. It is relevant to reward reporting and market benchmarking, provided that data definitions and comparability are made explicit.
+
+**Skills:** Excel · compensation data · data organisation · lookup structures · validation · dashboard design · stakeholder reporting
 
 ---
-Portfolio project by K96-max.
+*Portfolio project by K96-max.*
